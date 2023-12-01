@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.technologies-bg-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4faff;
+}
+.technologies-list-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  width: 80%;
+}
+.technologies-heading {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+}
+.technologies-description {
+  color: #64748b;
+  font-size: 18px;
+  max-width: 625px;
+  font-family: 'Roboto';
+  align-items: center;
+  margin-top: 24px;
+}
+
+.technologies-card-con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 1100px;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 32px;
+  padding-left: 0px;
+}
+
+@media screen and(min-width:768px) {
+  .technologies-list-con {
+    margin-top: 96px;
+  }
+}
